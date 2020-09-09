@@ -1,4 +1,4 @@
-package javaJSONRMI;
+package javaJSON;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;

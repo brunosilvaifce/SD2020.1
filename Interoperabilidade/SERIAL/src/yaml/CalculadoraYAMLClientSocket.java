@@ -38,8 +38,6 @@ public class CalculadoraYAMLClientSocket {
 				equac
 			).dumpMapping();
 		
-		//System.out.println("YAML  = "+equacion.toString());
-		
         return equacion.toString();
 	}
 
@@ -47,7 +45,7 @@ public class CalculadoraYAMLClientSocket {
 		
 		//double oper1=20,oper2=10;
 		//int operacao=1; //o-somar s-subtrair d-dividir m-multiplicar
-		String result="" , expressao = "5-3/8+1*9";
+		String result="" , expressao = "5-8/8+1*9";
 		
 	    try {
 	

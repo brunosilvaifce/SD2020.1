@@ -1,4 +1,4 @@
-package javaJSONRMI;
+package javaJSON;
 
 import java.util.ArrayList;
 import java.util.List;

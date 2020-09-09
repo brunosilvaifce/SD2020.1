@@ -1,4 +1,4 @@
-package javaJSONRMI;
+package javaJSON;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -33,7 +33,7 @@ public class CalculadoraJSONClientSocket {
 		
 		//double oper1=20,oper2=10;
 		//int operacao=1; //1-somar 2-subtrair 3-dividir 4-multiplicar
-		String result="" , expressao = "5-3/8+5*9";
+		String result="" , expressao = "5-9/8+5*1";
 		
 	    try {
 	
@@ -46,6 +46,7 @@ public class CalculadoraJSONClientSocket {
 	            System.out.println("String  = "+df);
 	            socketSaidaServer.writeBytes(df+"\n");
 	            socketSaidaServer.flush();
+	            
 	            System.out.println("Enviou, esperando ...");
 	            //Recebendo a resposta
 	            BufferedReader messageFromServer = new BufferedReader
